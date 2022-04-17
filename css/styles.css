@@ -1,0 +1,201 @@
+:root {
+--accent-color: #2196F3;
+--title-color:#212121;
+--text-color: #757575;
+--background-color: #2F303A;
+
+}
+body {
+    font-family: 'roboto','sans-serif';
+    color: var(--text-color);
+    background-color: #FFFFFF;
+}
+ul{
+    list-style: none;
+}
+/* header */
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--title-color);
+}
+.logo-part {
+    color: var(--accent-color);
+}
+.logo:hover,.logo:focus {
+    color: var(--accent-color);
+}
+.main-list-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--title-color);
+}
+.main-list-item:focus,.main-list-item:hover {
+    color: var(--accent-color);
+}
+.main-list-item.current {
+    color: var(--accent-color);
+}
+.contact-list-item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+.contact-list-item:hover,.contact-list-item:focus {
+    color: var(--accent-color);
+}
+/* body */
+/* hero */
+.hero{
+    background-color:var(--background-color);
+}
+.hero-title {
+ font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.hero-button {
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor:pointer ;
+    background-color: var(--accent-color);
+}
+
+/* Наши преимущества */
+.benefits-list-item-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.benefits-list-item-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+/* Чем мы занимаемся */
+.work,.benefits {
+    background-color:#E5E5E5 ;
+}
+.work-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+/* Наша команда */
+.team {
+    background-color:#F5F4FA ;
+}
+.team-member {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+.team-member-position {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+/* footer */
+footer {
+    background-color: var(--background-color);
+}
+.address-local {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+color: #FFFFFF;
+}
+.address-phone,.address-mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}.address-mail:hover,.address-phone:hover,.address-local:hover,.address-mail:focus,
+.address-phone:focus,
+.address-local:focus {
+    color: var(--accent-color);
+}
+
+.logo-part-footer {
+    color: #FFFFFF;
+}
+
+/* Portfolio */
+.filter-button {
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-button:hover, .filter-button:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.examples-link {
+    text-decoration:none ;
+}
+.examples-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+.examples-text {
+   
+    font-size: 16px;
+    line-height: 1.88;   
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
