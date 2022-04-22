@@ -285,23 +285,44 @@ color: #FFFFFF;
 }
 
 /* Portfolio */
+.filter { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
 .filter-button {
     font-style: normal;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    width: 128px;
+    height: 38px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
     background: #F5F4FA;
     border-radius: 4px;
     cursor: pointer;
+    border: #F5F4FA;
 }
 
 .filter-button:hover, .filter-button:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
+}
+.filter-button-li:not(:last-child) {
+margin-right: 8px;
+}
+.examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.examples-li:not(:nth-child(3n)) {
+    margin-right: 30px;
 }
 .examples-link {
     text-decoration:none ;
