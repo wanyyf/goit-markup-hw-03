@@ -1,0 +1,109 @@
+:root {
+  --accent-color: #4985ff;
+  --dark-color: #323232;
+  --grey-color: #999999;
+  --light-grey-color: #e0e0e0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+h3 {
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000;
+}
+.header {
+  background-color: #333;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.25;
+
+  color: #ffffff;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: blue;
+}
+
+.header-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+
+  color: #ffffff;
+  background-color: #333;
+}
+
+.header-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+
+  color: #ffffff;
+  background-color: #333;
+}
+
+.header-link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+
+  color: #ffffff;
+  background-color: #333;
+}
+.about h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+  color: var(--dark-color);
+}
+.about p {
+  line-height: 1.56;
+  text-align: center;
+  color: var(--grey-color);
+}
+.about a {
+  font-weight: 500;
+  line-height: 1.25;
+  color: #fff;
+}
+
+/* statistics */
+.statistics-img {
+  width: 500px;
+  height: 400px;
+}
+.statistics h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  color: var(--dark-color);
+}
+.statistics p {
+  line-height: 1.56;
+  color: var(--grey-color);
+}
+.statistics a {
+  line-height: 1.25;
+  color: var(--accent-color);
+  font-weight: 500;
+}
+ul li .statistics-item {
+  font-size: 36px;
+  line-height: 1.47;
+  color: #000;
+}

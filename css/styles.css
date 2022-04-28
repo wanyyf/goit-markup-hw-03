@@ -9,15 +9,16 @@ body {
     font-family: 'roboto','sans-serif';
     color: var(--text-color);
     background-color: #FFFFFF;
-    width: 1600px;
+    
 }
 .conteiner {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 
-
-    outline: auto;
+    /* outline: auto; */
 }
 
 .section {
@@ -27,6 +28,9 @@ body {
 .section-first {
     padding-top: 94px;
 }
+.section-last {
+    padding-bottom: 94px;
+}
 ul{
     list-style: none;
     margin: 0;
@@ -35,6 +39,10 @@ ul{
 h1,h2,h3,h4 {
     margin: 0px;
     padding: 0px;
+}
+p {
+    margin: 0;
+    padding: 0;
 }
 /* header */
 .head {
@@ -220,6 +228,12 @@ color: #FFFFFF;
     justify-content: center;
 }
 
+.team-list-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .team-list-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -232,7 +246,12 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
+.team-member-photo {
+    margin-bottom: 30px;
+}
 .team-member {
+    margin-bottom: 10px;
+    text-align: center;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -241,6 +260,8 @@ color: #FFFFFF;
     color: var(--title-color);
 }
 .team-member-position {
+    margin-bottom: 30px;
+    text-align: center;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -321,6 +342,18 @@ margin-right: 8px;
     justify-content: center;
 
 }
+
+.examples-photo {
+   display: block;
+}
+
+.examples-text-content {
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 31px;
+}
+
 .examples-li:not(:nth-child(3n)) {
     margin-right: 30px;
 }
@@ -328,6 +361,9 @@ margin-right: 8px;
     text-decoration:none ;
 }
 .examples-title {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -336,7 +372,8 @@ margin-right: 8px;
     color: var(--title-color);
 }
 .examples-text {
-   
+   margin-bottom: 20px;
+   margin-left: 24px;
     font-size: 16px;
     line-height: 1.88;   
     letter-spacing: 0.03em;
